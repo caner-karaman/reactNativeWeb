@@ -63,6 +63,7 @@ module.exports = {
     extensions: ['.web.tsx', '.web.ts', '.tsx', '.ts', '.web.js', '.js'],
     alias: {
       'react-native$': 'react-native-web',
+      'styled-components': 'styled-components/native',
     },
   },
   module: {
